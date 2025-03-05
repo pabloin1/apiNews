@@ -1,0 +1,33 @@
+{
+  "name": "apinews",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+     "start": "node app",
+    "start:dev": "nodemon app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.5.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.6.0",
+    "express": "^4.21.2",
+    "express-fileupload": "^1.5.1",
+    "express-validator": "^6.9.2",
+    "firebase-admin": "^13.1.0",
+    "google-auth-library": "^9.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.12.1",
+    "paquete": "^1.0.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/express-fileupload": "^1.5.1",
+    "nodemon": "^3.1.9"
+  }
+}
